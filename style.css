@@ -1,0 +1,405 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'AcuminPro';
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'AcuminPro';
+  src: url(Font/acumin-pro-cufonfonts/Acumin-BdPro.otf);
+}
+
+@font-face {
+  font-family: 'AcuminProSlim';
+  src: url(Font/acumin-pro-cufonfonts/Acumin-RPro.otf);
+}
+
+section {
+  background-color: #191919;
+  padding-bottom: 5rem;
+}
+
+#HeroContainer {
+  height: 100vh;
+  background-image: url("Images/Asset 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#LineTopWithText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0rem 0 10rem;
+  font-size: 45px;
+}
+
+#LineTop {
+  height: 4px;
+  width: 90%;
+  background-color: #FFFFFF;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#CenterTextContainer {
+  height: 84vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#CenterTextContainer h1 {
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+#NavButtons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+#NavButtons ul li {
+  margin: 0 2rem;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+#NavButtons a {
+  text-decoration: none;
+  font-family: 'AcuminProSlim';
+}
+
+.LineDivider {
+  height: 2.5rem;
+  background-color: #FFFFFF;
+  width: 1.5px;
+}
+
+#LineBottomWithText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0rem 10rem 0 0;
+}
+
+#LineBottomWithText a {
+  margin-right: 0;
+  margin-left: auto;
+  background-color: #FFFFFF;
+  color: #9742D8;
+  padding: 0.7rem 1.1rem;
+  border-radius: 5rem;
+  text-decoration: none;
+}
+
+#LineBottom {
+  height: 4px;
+  width: 90%;
+  background-color: #FFFFFF;
+}
+
+#AboutMeContainer {
+  padding: 9rem 0;
+}
+
+#AboutMeContainer h1 {
+  font-size: 6.8rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin: 0 0 1.2rem -7rem;
+}
+
+#AboutMeLeft {
+  float: left;
+  display: block;
+  width: 50%;
+  margin-top: -8.9rem;
+}
+
+#AboutMeImage {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#AboutMeImage img {
+  float: right;
+  width: 72%;
+  position: relative;
+}
+
+#txtContainer p {
+  width: 60%;
+  font-family: 'AcuminProSlim';
+  font-size: 18px;
+  padding-left: 1rem;
+  line-height: 1.7rem;
+  z-index: -1;
+}
+
+#AboutMeRight {
+  float: right;
+  display: block;
+  width: 50%;
+}
+
+#SkillsSection {
+  padding-bottom: 5rem;
+}
+
+#ColorSectionLeft {
+  position: absolute;
+  z-index: 0;
+  float: left;
+  margin: -10% -20%;
+}
+
+#ColorSectionRight {
+  position: absolute;
+  z-index: 0;
+  float: right;
+  margin: 4% 76%;
+}
+
+#SkillsContainer {
+  padding: 9rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+#SkillsContainer h1 {
+  font-size: 6.8rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin: 0 0 4rem 0;
+}
+
+#SkillsListSections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#ParagraphOfSkills {
+  width: 64%;
+}
+
+#ParagraphOfSkills span {
+  font-family: 'AcuminProSlim';
+}
+
+#Spacer {
+  height: 3rem;
+  width: 3px;
+  background-color: #E1FF01;
+  display: inline-block;
+  margin: 0 0.7rem 0 0.7rem;
+}
+
+.afterEffects {
+  font-size: 4rem;
+}
+
+.wordpress {
+  font-size: 3.8rem;
+}
+
+.unity3d {
+  font-size: 3.5rem;
+}
+
+.blender {
+  font-size: 3rem;
+}
+
+.microsoft {
+  font-size: 3.2rem;
+}
+
+.language {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.gitLab {
+  font-size: 3rem;
+}
+
+.vSCode {
+  font-size: 3.3rem;
+}
+
+.photoshop {
+  font-size: 2.5rem;
+}
+
+.Animation {
+  font-size: 3rem;
+}
+
+.windowsServer {
+  font-size: 3.2rem;
+}
+
+.microsoftAzure {
+  font-size: 3rem;
+}
+
+.webDesign {
+  font-size: 3rem;
+}
+
+.illustration {
+  font-size: 2.8rem;
+}
+
+.adobeXd {
+  font-size: 3.5rem;
+}
+
+#ExperienceContainer {
+  padding: 0 0 9rem 0;
+}
+
+#ExperienceHeader {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-image: url("Images//Asset 1.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+#ExperienceHeader h1 {
+  font-size: 6.8rem;
+  font-weight: 700;
+}
+
+#ExperienceHeader h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+#TextContainer {
+  padding: 5% 10%;
+}
+
+.txtWithLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5% 0;
+}
+
+.line {
+  width: 90%;
+  height: 3px;
+  background-color: #E1FF01;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#txt {
+  margin: 2% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#txt p {
+  font-family: 'AcuminProSlim';
+  font-size: 20px;
+}
+
+#txt h2 {
+  margin-bottom: 1%;
+}
+
+.rightTxt {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#ContactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0;
+}
+
+#contact {
+  font-size: 6.8rem;
+  font-weight: 700;
+  margin-bottom: -1.5rem;
+}
+
+#txtBlock h1 {
+  font-size: 6.8rem;
+  font-weight: 700;
+}
+
+#itemsBelowContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#text p {
+  font-family: 'AcuminProSlim';
+  font-size: 2rem;
+}
+
+#text a {
+  font-family: 'AcuminProSlim';
+  font-size: 2rem;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

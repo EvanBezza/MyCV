@@ -1,3 +1,11 @@
+// Student: Evan Bezuidenhout
+// Task: 24
+// Compulsory Task: 2
+// File: style.scss
+
+// ==============================
+// Global Styling for body
+// ==============================
 *{
     padding: 0;
     margin: 0;
@@ -20,11 +28,27 @@ section{
     background-color: #191919;
     padding-bottom: 5rem;
 }
+a, p, span{
+    font-family: 'AcuminProSlim';
+    text-decoration: none;
+}
 
-// ===== Hero Section =====
+// Global Item Centering Code
+@mixin CenteringItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+@mixin AlignCenter {
+    display: flex;
+    align-items: center;
+} 
 
-// #HeroSection{}
 
+
+// ==========================
+// Hero Section Styling Start
+// ==========================
 #HeroContainer{
     height: 100vh;
     background-image: url("Images/Asset\ 1.png");
@@ -32,14 +56,11 @@ section{
     background-position: center;
     background-size: cover;
 }
-
 #LineTopWithText{
-    display: flex;
-    align-items: center;
+    @include AlignCenter();
     padding: 1rem 0rem 0 10rem;
     font-size: 45px;
 }
-
 #LineTop{
     height: 4px;
     width: 90%;
@@ -47,49 +68,33 @@ section{
     margin-right: 0;
     margin-left: auto;
 }
-
 #CenterTextContainer{
     height: 84vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include CenteringItems();
     flex-direction: column;
 }
-
 #CenterTextContainer h1{
     font-size: 10rem;
     font-weight: 700;
 }
-
 #NavButtons ul{
-    display: flex;
-    align-items: center;
+    @include AlignCenter();
     list-style: none;
 }
-
 #NavButtons ul li{
     margin: 0 2rem;
     font-size: 26px;
     text-decoration: none;
 }
-
-#NavButtons a{
-    text-decoration: none;
-    font-family: 'AcuminProSlim';
-}
-
 .LineDivider{
     height: 2.5rem;
     background-color: #FFFFFF;
     width: 1.5px;
 }
-
 #LineBottomWithText{
-    display: flex;
-    align-items: center;
+    @include AlignCenter();
     padding: 0rem 10rem 0 0;
 }
-
 #LineBottomWithText a{
     margin-right: 0;
     margin-left: auto;
@@ -97,29 +102,24 @@ section{
     color: #9742D8;
     padding: 0.7rem 1.1rem;
     border-radius: 5rem;
-    text-decoration: none;
 }
-
 #LineBottom{
     height: 4px;
     width: 90%;
     background-color: #FFFFFF;
 }
+// ========================
+// Hero Section Styling End
+// ========================
 
-// ===== Hero Section End =====
 
-// ===== About Me Section =====
 
-#AboutMeSection{
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // padding: 2rem 0 2rem 0;
-}
+// ==============================
+// About Me Section Styling Start
+// ==============================
 #AboutMeContainer{
     padding: 9rem 0;
 }
-
 #AboutMeContainer h1{
     font-size: 6.8rem;
     font-weight: 700;
@@ -137,34 +137,33 @@ section{
     margin-left: auto;
     margin-right: 0;
 }
-
 #AboutMeImage img{
     float: right;
     width: 72%;
     position: relative;
 
 }
-
 #txtContainer p{
     width: 60%;
-    font-family: 'AcuminProSlim';
     font-size: 18px;
     padding-left: 1rem;
     line-height: 1.7rem;
     z-index: -1;
 }
-
 #AboutMeRight{
     float: right;
     display: block;
     width: 50%;
-    // margin-top: -1.2%;
 }
+// ==============================
+// About Me Section Styling End
+// ==============================
 
-// ===== About Me Section End =====
 
-// ==== Skills Section Start ====
 
+// ============================
+// Skills Section Styling Start
+// ============================
 #SkillsSection{
     padding-bottom: 5rem;
 }
@@ -179,7 +178,6 @@ section{
     z-index: 0;
     float: right;
     margin: 4% 76%;
-
 }
 #SkillsContainer{
     padding: 9rem 0;
@@ -194,16 +192,10 @@ section{
     margin: 0 0 4rem 0;
 }
 #SkillsListSections{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include CenteringItems();
 }
-
 #ParagraphOfSkills{
     width: 64%;
-}
-#ParagraphOfSkills span{
-    font-family: 'AcuminProSlim';
 }
 #Spacer{
     height: 3rem;
@@ -212,7 +204,7 @@ section{
     display: inline-block;
     margin: 0 0.7rem 0 0.7rem;
 }
-
+// This large snippet of code is to position each of the elements for the skills block as each element needs to be a different size
 .afterEffects{font-size: 4rem;}
 .wordpress{font-size: 3.8rem;}
 .unity3d{font-size: 3.5rem;}
@@ -228,22 +220,19 @@ section{
 .webDesign{font-size: 3rem;}
 .illustration{font-size: 2.8rem;}
 .adobeXd{font-size: 3.5rem;}
+// ============================
+// Skills Section Styling Start
+// ============================
 
 
-// ==== Skills Section End ====
 
-// ==== Experience Section Start ====
-
-// #MyExperienceSection{
-//     padding: 0 10%;
-// }
-#ExperienceContainer{
-    padding: 0 0 9rem 0;
-}
+// ================================
+// Experience Section Styling Start
+// ================================
 #ExperienceHeader{
     text-align: center;
     padding: 1.5rem 0;
-    background-image: url("Images//Asset\ 1.png");
+    background-image: url("Images/Asset\ 1.png");
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -260,8 +249,7 @@ section{
     padding: 5% 10%;
 }
 .txtWithLine{
-    display: flex;
-    align-items: center;
+    @include AlignCenter();
     margin: 0.5% 0;
 }
 .line{
@@ -273,11 +261,9 @@ section{
 }
 #txt{
     margin: 2% 0;
-    display: flex;
-    align-items: center;
+    @include AlignCenter();
 }
 #txt p{
-    font-family: 'AcuminProSlim';
     font-size: 20px;
 }
 #txt h2{
@@ -287,16 +273,17 @@ section{
     margin-left: auto;
     margin-right: 0;
 }
+// ==============================
+// Experience Section Styling End
+// ==============================
 
-// ==== Experience Section End ====
 
-// ==== Contact Me Section Start ===
 
-// #ContactDetailSection{}
+// =============================
+// Contact Section Styling Start
+// =============================
 #ContactContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include CenteringItems();
     padding: 5rem 0;
 }
 #contact{
@@ -309,18 +296,14 @@ section{
     font-weight: 700;
 }
 #itemsBelowContact{
-    display: flex;
-    align-items: center;
+    @include AlignCenter();
 }
 #text p{
-    font-family: 'AcuminProSlim';
     font-size: 2rem;
 }
 #text a{
-    // font-family: 'AcuminProSlim';
-    font-family: 'AcuminProSlim';
     font-size: 2rem;
-    text-decoration: none;
 }
-
-// ==== Contact Me Section End ===
+// ===========================
+// Contact Section Styling End
+// ===========================

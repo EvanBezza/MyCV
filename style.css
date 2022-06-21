@@ -22,6 +22,11 @@ section {
   padding-bottom: 5rem;
 }
 
+a, p, span {
+  font-family: 'AcuminProSlim';
+  text-decoration: none;
+}
+
 #HeroContainer {
   height: 100vh;
   background-image: url("Images/Asset 1.png");
@@ -87,11 +92,6 @@ section {
   text-decoration: none;
 }
 
-#NavButtons a {
-  text-decoration: none;
-  font-family: 'AcuminProSlim';
-}
-
 .LineDivider {
   height: 2.5rem;
   background-color: #FFFFFF;
@@ -115,7 +115,6 @@ section {
   color: #9742D8;
   padding: 0.7rem 1.1rem;
   border-radius: 5rem;
-  text-decoration: none;
 }
 
 #LineBottom {
@@ -156,7 +155,6 @@ section {
 
 #txtContainer p {
   width: 60%;
-  font-family: 'AcuminProSlim';
   font-size: 18px;
   padding-left: 1rem;
   line-height: 1.7rem;
@@ -215,10 +213,6 @@ section {
 
 #ParagraphOfSkills {
   width: 64%;
-}
-
-#ParagraphOfSkills span {
-  font-family: 'AcuminProSlim';
 }
 
 #Spacer {
@@ -290,14 +284,10 @@ section {
   font-size: 3.5rem;
 }
 
-#ExperienceContainer {
-  padding: 0 0 9rem 0;
-}
-
 #ExperienceHeader {
   text-align: center;
   padding: 1.5rem 0;
-  background-image: url("Images//Asset 1.png");
+  background-image: url("Images/Asset 1.png");
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -346,7 +336,6 @@ section {
 }
 
 #txt p {
-  font-family: 'AcuminProSlim';
   font-size: 20px;
 }
 
@@ -393,13 +382,10 @@ section {
 }
 
 #text p {
-  font-family: 'AcuminProSlim';
   font-size: 2rem;
 }
 
 #text a {
-  font-family: 'AcuminProSlim';
   font-size: 2rem;
-  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

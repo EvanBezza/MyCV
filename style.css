@@ -1,29 +1,27 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'AcuminPro';
+  font-family: "AcuminPro";
   color: #FFFFFF;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
 @font-face {
-  font-family: 'AcuminPro';
+  font-family: "AcuminPro";
   src: url(Font/acumin-pro-cufonfonts/Acumin-BdPro.otf);
 }
-
 @font-face {
-  font-family: 'AcuminProSlim';
+  font-family: "AcuminProSlim";
   src: url(Font/acumin-pro-cufonfonts/Acumin-RPro.otf);
 }
-
 section {
   background-color: #191919;
   padding-bottom: 5rem;
 }
 
 a, p, span {
-  font-family: 'AcuminProSlim';
+  font-family: "AcuminProSlim";
   text-decoration: none;
 }
 
@@ -37,12 +35,8 @@ a, p, span {
 }
 
 #LineTopWithText {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 1rem 0rem 0 10rem;
   font-size: 45px;
 }
@@ -57,19 +51,10 @@ a, p, span {
 
 #CenterTextContainer {
   height: 84vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #CenterTextContainer h1 {
@@ -78,12 +63,8 @@ a, p, span {
 }
 
 #NavButtons ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   list-style: none;
 }
 
@@ -100,12 +81,8 @@ a, p, span {
 }
 
 #LineBottomWithText {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 0rem 10rem 0 0;
 }
 
@@ -141,12 +118,8 @@ a, p, span {
     width: 1.5px;
   }
   #LineTopWithText {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 1rem 0rem 0 1rem;
     font-size: 35px;
   }
@@ -158,12 +131,8 @@ a, p, span {
     margin-left: auto;
   }
   #LineBottomWithText {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 0rem 1rem 0 0;
   }
   #LineBottom {
@@ -172,7 +141,6 @@ a, p, span {
     background-color: #FFFFFF;
   }
 }
-
 #AboutMeContainer {
   padding: 9rem 0;
 }
@@ -256,7 +224,6 @@ a, p, span {
     padding: 0 2rem;
   }
 }
-
 #SkillsSection {
   padding-bottom: 5rem;
 }
@@ -290,15 +257,9 @@ a, p, span {
 }
 
 #SkillsListSections {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #ParagraphOfSkills {
@@ -450,7 +411,6 @@ a, p, span {
     font-size: 1.75rem;
   }
 }
-
 #ExperienceHeader {
   text-align: center;
   padding: 1.5rem 0;
@@ -475,12 +435,8 @@ a, p, span {
 }
 
 .txtWithLine {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0.5% 0;
 }
 
@@ -494,12 +450,8 @@ a, p, span {
 
 #txt {
   margin: 2% 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #txt p {
@@ -536,12 +488,8 @@ a, p, span {
   }
   #txt {
     margin: 8% 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   #txt p {
     font-size: 16px;
@@ -554,17 +502,10 @@ a, p, span {
     font-size: 1.8rem;
   }
 }
-
 #ContactContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 5rem 0;
 }
 
@@ -580,12 +521,8 @@ a, p, span {
 }
 
 #itemsBelowContact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #text p {
@@ -602,28 +539,17 @@ a, p, span {
     font-weight: 700;
   }
   #itemsBelowContact {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     display: block;
   }
   #ContactContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     padding: 2rem 2rem;
   }
   #contact {
     margin-bottom: -0.6rem;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

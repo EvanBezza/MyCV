@@ -3,8 +3,6 @@
 <!-- Compulsory Task: 2 -->
 <!-- File: index.html -->
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Linking Style File -->
     <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Linking Java Script file -->
+    <!-- <script src="main.js"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCV</title>
 </head>
 <body>
+    <div class="cursor"></div>
     <!-- ================== -->
     <!-- Hero Section Start -->
     <!-- ================== -->
@@ -212,3 +213,14 @@
     <!-- =================== -->
 </body>
 </html>
+<!-- <script>
+    const cursor = document.querySelector(".cursor");
+    document.addEventListener("mousemove", (e) => {
+        let leftPos = e.pageX;
+        let topPos = e.pageY;
+
+        cursor.style.left = leftPos;
+        cursor.style.top = topPos;
+        // cursor.setAttribute("style", "top:"+e.pageY+"px; left:"+e.pageX+"px; right:")
+    })
+</script> -->

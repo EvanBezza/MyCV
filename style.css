@@ -31,7 +31,6 @@ a, p, span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  cursor: url("Images/Cursor.png"), auto;
 }
 
 #LineTopWithText {
@@ -448,17 +447,17 @@ a, p, span {
   margin-right: 0;
 }
 
-#txt {
+.txt {
   margin: 2% 0;
   display: flex;
   align-items: center;
 }
 
-#txt p {
+.txt p {
   font-size: 20px;
 }
 
-#txt h2 {
+.txt h2 {
   margin-bottom: 1%;
 }
 
@@ -486,18 +485,15 @@ a, p, span {
     margin-left: auto;
     margin-right: 0;
   }
-  #txt {
+  .txt {
     margin: 8% 0;
     display: flex;
     align-items: center;
   }
-  #txt p {
+  .txt p {
     font-size: 16px;
   }
-  #txt h2 {
-    margin-bottom: 1%;
-  }
-  #txt h2 {
+  .txt h2 {
     margin-bottom: 1%;
     font-size: 1.8rem;
   }
